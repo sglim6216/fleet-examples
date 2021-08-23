@@ -1,6 +1,6 @@
 {{ if .Values.replication }}
 apiVersion: apps/v1
-kind: DaemonSet
+kind: Deployment
 metadata:
   name: redis-slave
 spec:
