@@ -11,7 +11,7 @@ targetCustomizations:
 - name: test
   helm:
     values:
-      replicas: 3
+      replicas: 5
   clusterSelector:
     matchLabels:
       env: test
