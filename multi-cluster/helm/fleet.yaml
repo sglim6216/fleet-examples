@@ -16,7 +16,7 @@ targetCustomizations:
     matchLabels:
       env: test
 
-- name: prod
+- name: aws
   helm:
     values:
       serviceType: LoadBalancer
